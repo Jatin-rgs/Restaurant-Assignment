@@ -26,7 +26,7 @@ const reservationSchema = new mongoose.Schema({
     validator: function (v) {
       return /^\d{10,11}$/.test(v);
     },
-    message: "Phone number must contain 10 or 20 digits only",
+    message: "Phone number must contain 10 or 11 digits only",
   }
     },
     time: {

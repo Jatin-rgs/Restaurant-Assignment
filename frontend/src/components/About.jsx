@@ -9,7 +9,7 @@ const About = () => {
         <div className="container">
           <div className="banner">
             <div className="top">
-              <h1 className="heading">ABOUT US</h1>
+              <h1 className="heading">ABOUT</h1>
               <p>The only thing we're serious about is food.</p>
             </div>
             <p className="mid">
